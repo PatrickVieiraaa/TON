@@ -8,11 +8,11 @@ let icon = document.getElementById("icon")
 function clicou() {
    if(song.paused){
     song.play();
-    icon.src = "/assets/images/som-desligado.png"
+    icon.src = "/assets/images/som.png"
 
    } else {
     song.pause();
-    icon.src = "/assets/images/som.png"
+    icon.src = "/assets/images/som-desligado.png"
    }
 }
 
