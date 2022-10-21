@@ -11,6 +11,7 @@
 html {
     scrollbar-color: #0000FF #FFFFFF;
     scrollbar-width: thin;
+    overflow-y: hidden;
     
   }
   
@@ -383,3 +384,4 @@ button {
     height: 30px;
     margin-right: 20px;
 }
+
