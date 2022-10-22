@@ -5,6 +5,8 @@ ScrollReveal().reveal('header',{ duration: 3000});
 let song = document.getElementById("song")
 let icon = document.getElementById("icon")
 
+
+// Evento de som
 function clicou() {
    if(song.paused){
     song.play();
@@ -17,3 +19,14 @@ function clicou() {
 }
 
 icon.addEventListener("click", clicou)
+
+
+
+
+// botão de rolagem
+
+function segundatela() {
+
+   window.scrollTo(1600, 0)
+
+}
